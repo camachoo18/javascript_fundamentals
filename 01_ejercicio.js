@@ -1,1 +1,2 @@
-#Ejercicio 1.
+let nombre = "Estiven";
+console.log(nombre);
