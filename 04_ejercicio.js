@@ -3,18 +3,16 @@ function suma(a,b){
     return resultado
 }
 
-
-suma(2,6)
-
+var operacion = suma(2,6)
+console.log(operacion)
 
 function restar(a,b){
     let resultado = a - b
     return resultado
 }
 
-
-restar(8,2)
-
+var operacion = restar(8,2) 
+console.log(operacion)
 
 function multiplicar(a,b){
     let resultado = a * b
@@ -22,8 +20,8 @@ function multiplicar(a,b){
 }
 
 
-multiplicar(3,2)
-
+var operacion = multiplicar(3,2)
+console.log(operacion)
 
 function dividir(a,b){
     let resultado = a / b
@@ -31,8 +29,8 @@ function dividir(a,b){
 }
 
 
-dividir(8,4)
-
+var operacion = dividir(8,4)
+console.log(operacion)
 
 function doble (a){
     let resultado = a * 2
@@ -40,4 +38,5 @@ function doble (a){
 }
 
 
-doble(2)
+var operacion = doble(2)
+console.log(operacion)
